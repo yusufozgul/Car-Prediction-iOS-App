@@ -5,5 +5,5 @@ This application is a mbil application for machine learning. For details: [Car P
 
 
 
-The application contains plenty of errors and bad coding :)
+The application contains plenty of errors, bugs and bad coding :)
 
