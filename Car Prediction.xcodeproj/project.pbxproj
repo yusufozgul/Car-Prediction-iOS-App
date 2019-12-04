@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E7B740F280DD60702735FD2 /* Pods_Car_Prediction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF589C8765A602E13B6D071 /* Pods_Car_Prediction.framework */; };
+		8889068D2394F14500880485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889068C2394F14500880485 /* AppDelegate.swift */; };
+		8889068F2394F14500880485 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889068E2394F14500880485 /* SceneDelegate.swift */; };
+		888906912394F14500880485 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888906902394F14500880485 /* ViewController.swift */; };
+		888906942394F14500880485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888906922394F14500880485 /* Main.storyboard */; };
+		888906962394F14800880485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888906952394F14800880485 /* Assets.xcassets */; };
+		888906992394F14800880485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888906972394F14800880485 /* LaunchScreen.storyboard */; };
+		888906A12394F72D00880485 /* SelectAttributeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888906A02394F72D00880485 /* SelectAttributeVC.swift */; };
+		888906A32394FACD00880485 /* SelectableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888906A22394FACD00880485 /* SelectableData.swift */; };
+		888906A523957C5100880485 /* GetPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888906A423957C5100880485 /* GetPrice.swift */; };
+		888906A72395885600880485 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888906A62395885600880485 /* MapVC.swift */; };
+		888906A92395886500880485 /* MapSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888906A82395886500880485 /* MapSelectVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CF589C8765A602E13B6D071 /* Pods_Car_Prediction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Car_Prediction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE70DAEC7DF0C3315B22FB8 /* Pods-Car Prediction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Prediction.release.xcconfig"; path = "Target Support Files/Pods-Car Prediction/Pods-Car Prediction.release.xcconfig"; sourceTree = "<group>"; };
+		888906892394F14500880485 /* Car Prediction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Prediction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8889068C2394F14500880485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8889068E2394F14500880485 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		888906902394F14500880485 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		888906932394F14500880485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888906952394F14800880485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		888906982394F14800880485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8889069A2394F14800880485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888906A02394F72D00880485 /* SelectAttributeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAttributeVC.swift; sourceTree = "<group>"; };
+		888906A22394FACD00880485 /* SelectableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableData.swift; sourceTree = "<group>"; };
+		888906A423957C5100880485 /* GetPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPrice.swift; sourceTree = "<group>"; };
+		888906A62395885600880485 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		888906A82395886500880485 /* MapSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSelectVC.swift; sourceTree = "<group>"; };
+		B8114CFE9E88C3FE6971DA78 /* Pods-Car Prediction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Prediction.debug.xcconfig"; path = "Target Support Files/Pods-Car Prediction/Pods-Car Prediction.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888906862394F14500880485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7B740F280DD60702735FD2 /* Pods_Car_Prediction.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31716805F8E87E4F5E0CE2CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8114CFE9E88C3FE6971DA78 /* Pods-Car Prediction.debug.xcconfig */,
+				6CE70DAEC7DF0C3315B22FB8 /* Pods-Car Prediction.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		888906802394F14500880485 = {
+			isa = PBXGroup;
+			children = (
+				8889068B2394F14500880485 /* Car Prediction */,
+				8889068A2394F14500880485 /* Products */,
+				31716805F8E87E4F5E0CE2CD /* Pods */,
+				EF97B15EEFA9AEF26FE7B60B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8889068A2394F14500880485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888906892394F14500880485 /* Car Prediction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8889068B2394F14500880485 /* Car Prediction */ = {
+			isa = PBXGroup;
+			children = (
+				8889068C2394F14500880485 /* AppDelegate.swift */,
+				8889068E2394F14500880485 /* SceneDelegate.swift */,
+				888906902394F14500880485 /* ViewController.swift */,
+				888906922394F14500880485 /* Main.storyboard */,
+				888906952394F14800880485 /* Assets.xcassets */,
+				888906972394F14800880485 /* LaunchScreen.storyboard */,
+				8889069A2394F14800880485 /* Info.plist */,
+				888906A02394F72D00880485 /* SelectAttributeVC.swift */,
+				888906A22394FACD00880485 /* SelectableData.swift */,
+				888906A62395885600880485 /* MapVC.swift */,
+				888906A82395886500880485 /* MapSelectVC.swift */,
+				888906A423957C5100880485 /* GetPrice.swift */,
+			);
+			path = "Car Prediction";
+			sourceTree = "<group>";
+		};
+		EF97B15EEFA9AEF26FE7B60B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF589C8765A602E13B6D071 /* Pods_Car_Prediction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888906882394F14500880485 /* Car Prediction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8889069D2394F14800880485 /* Build configuration list for PBXNativeTarget "Car Prediction" */;
+			buildPhases = (
+				1C1CC0391248D813F0831BF3 /* [CP] Check Pods Manifest.lock */,
+				888906852394F14500880485 /* Sources */,
+				888906862394F14500880485 /* Frameworks */,
+				888906872394F14500880485 /* Resources */,
+				7E7C73CBF0D2FBDD41417FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Prediction";
+			productName = "Car Prediction";
+			productReference = 888906892394F14500880485 /* Car Prediction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888906812394F14500880485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Yusuf Özgül";
+				TargetAttributes = {
+					888906882394F14500880485 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 888906842394F14500880485 /* Build configuration list for PBXProject "Car Prediction" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888906802394F14500880485;
+			productRefGroup = 8889068A2394F14500880485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888906882394F14500880485 /* Car Prediction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888906872394F14500880485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888906992394F14800880485 /* LaunchScreen.storyboard in Resources */,
+				888906962394F14800880485 /* Assets.xcassets in Resources */,
+				888906942394F14500880485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C1CC0391248D813F0831BF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Car Prediction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7C73CBF0D2FBDD41417FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Car Prediction/Pods-Car Prediction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Car Prediction/Pods-Car Prediction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Car Prediction/Pods-Car Prediction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888906852394F14500880485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888906A523957C5100880485 /* GetPrice.swift in Sources */,
+				888906912394F14500880485 /* ViewController.swift in Sources */,
+				888906A32394FACD00880485 /* SelectableData.swift in Sources */,
+				888906A92395886500880485 /* MapSelectVC.swift in Sources */,
+				8889068D2394F14500880485 /* AppDelegate.swift in Sources */,
+				888906A72395885600880485 /* MapVC.swift in Sources */,
+				8889068F2394F14500880485 /* SceneDelegate.swift in Sources */,
+				888906A12394F72D00880485 /* SelectAttributeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		888906922394F14500880485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888906932394F14500880485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888906972394F14800880485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888906982394F14800880485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8889069B2394F14800880485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8889069C2394F14800880485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8889069E2394F14800880485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8114CFE9E88C3FE6971DA78 /* Pods-Car Prediction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7R55236BC;
+				INFOPLIST_FILE = "Car Prediction/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusufozgul.Car-Prediction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8889069F2394F14800880485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE70DAEC7DF0C3315B22FB8 /* Pods-Car Prediction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E7R55236BC;
+				INFOPLIST_FILE = "Car Prediction/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yusufozgul.Car-Prediction";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888906842394F14500880485 /* Build configuration list for PBXProject "Car Prediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8889069B2394F14800880485 /* Debug */,
+				8889069C2394F14800880485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8889069D2394F14800880485 /* Build configuration list for PBXNativeTarget "Car Prediction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8889069E2394F14800880485 /* Debug */,
+				8889069F2394F14800880485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888906812394F14500880485 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Car_Prediction {
+  umbrella header "Pods-Car Prediction-umbrella.h"
+
+  export *
+  module * { export * }
+}
